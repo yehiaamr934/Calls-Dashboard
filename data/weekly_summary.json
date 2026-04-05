@@ -1,0 +1,208 @@
+{
+  "updated_at": "2026-04-05T15:58:07.424795Z",
+  "weeks": {
+    "5": {
+      "count": 12,
+      "roles": {
+        "Barista": 11,
+        "Waiter": 2,
+        "Head Barista": 1
+      },
+      "top_locations": {
+        "Downtown": 7,
+        "Heliopolis": 5,
+        "Dokki": 5,
+        "Maadi": 4
+      },
+      "salary_avg": 14541,
+      "salary_min": 8000,
+      "salary_max": 50000,
+      "salary_pool": 174500
+    },
+    "6": {
+      "count": 12,
+      "roles": {
+        "Head Barista": 9,
+        "Barista": 6,
+        "Waiter": 2,
+        "Branch Manager": 1
+      },
+      "top_locations": {
+        "October & Zayed": 6,
+        "Dokki": 4,
+        "New Cairo": 3,
+        "Maadi": 3
+      },
+      "salary_avg": 10875,
+      "salary_min": 6000,
+      "salary_max": 20000,
+      "salary_pool": 130500
+    },
+    "7": {
+      "count": 29,
+      "roles": {
+        "Chef": 26,
+        "Waiter": 1,
+        "Barista": 1,
+        "Deliveryman": 1
+      },
+      "top_locations": {
+        "Heliopolis": 9,
+        "Downtown": 7,
+        "Anywhere in Cairo": 6,
+        "Nasr City": 6
+      },
+      "salary_avg": 13482,
+      "salary_min": 8000,
+      "salary_max": 25000,
+      "salary_pool": 391000
+    },
+    "8": {
+      "count": 13,
+      "roles": {
+        "Barista": 6,
+        "Chef": 5,
+        "Head Barista": 4,
+        "Branch Manager": 2,
+        "Waiter": 1,
+        "Hookah": 1,
+        "Accountant": 1
+      },
+      "top_locations": {
+        "New Cairo": 4,
+        "October & Zayed": 4,
+        "Zamalek": 3,
+        "Dokki": 3
+      },
+      "salary_avg": 10615,
+      "salary_min": 6000,
+      "salary_max": 16000,
+      "salary_pool": 138000
+    },
+    "9": {
+      "count": 51,
+      "roles": {
+        "Chef": 38,
+        "Waiter": 8,
+        "Branch Manager": 3,
+        "Barista": 1,
+        "Accountant": 1,
+        "Captain Order": 1
+      },
+      "top_locations": {
+        "New Cairo": 22,
+        "Maadi": 17,
+        "Nasr City": 15,
+        "October & Zayed": 15
+      },
+      "salary_avg": 12292,
+      "salary_min": 4300,
+      "salary_max": 30000,
+      "salary_pool": 626900
+    },
+    "10": {
+      "count": 18,
+      "roles": {
+        "Chef": 14,
+        "Branch Manager": 4
+      },
+      "top_locations": {
+        "Anywhere in Cairo": 9,
+        "New Cairo": 7,
+        "Downtown": 4,
+        "Maadi": 3
+      },
+      "salary_avg": 13861,
+      "salary_min": 1000,
+      "salary_max": 20000,
+      "salary_pool": 249500
+    },
+    "11": {
+      "count": 43,
+      "roles": {
+        "Chef": 27,
+        "Branch Manager": 6,
+        "Barista": 5,
+        "Waiter": 2,
+        "Head Barista": 2,
+        "Security": 1,
+        "Restaurant Manager": 1,
+        "Operations Manager": 1,
+        "Captain Order": 1
+      },
+      "top_locations": {
+        "October & Zayed": 15,
+        "Maadi": 13,
+        "Nasr City": 10,
+        "New Cairo": 10
+      },
+      "salary_avg": 11093,
+      "salary_min": 6500,
+      "salary_max": 28000,
+      "salary_pool": 477000
+    },
+    "12": {
+      "count": 42,
+      "roles": {
+        "Barista": 29,
+        "Head Barista": 14,
+        "Chef": 5,
+        "Hookah": 1,
+        "Captain Order": 1
+      },
+      "top_locations": {
+        "New Cairo": 15,
+        "Anywhere in Cairo": 14,
+        "Heliopolis": 12,
+        "Nasr City": 11
+      },
+      "salary_avg": 9726,
+      "salary_min": 4000,
+      "salary_max": 15000,
+      "salary_pool": 408500
+    },
+    "13": {
+      "count": 46,
+      "roles": {
+        "Barista": 33,
+        "Chef": 6,
+        "Steward": 3,
+        "Accounting Manager": 1,
+        "Head Barista": 1,
+        "Accountant": 1,
+        "Steward Supersiver": 1
+      },
+      "top_locations": {
+        "Anywhere in Cairo": 17,
+        "New Cairo": 13,
+        "Maadi": 12,
+        "October & Zayed": 12
+      },
+      "salary_avg": 9532,
+      "salary_min": 6000,
+      "salary_max": 25000,
+      "salary_pool": 438500
+    },
+    "14": {
+      "count": 38,
+      "roles": {
+        "Chef": 18,
+        "Barista": 15,
+        "Accounting Manager": 2,
+        "Kitchen Manager": 2,
+        "Head Barista": 2,
+        "Branch Manager": 1
+      },
+      "top_locations": {
+        "New Cairo": 17,
+        "Heliopolis": 13,
+        "Nasr City": 12,
+        "October & Zayed": 10
+      },
+      "salary_avg": 11281,
+      "salary_min": 6500,
+      "salary_max": 35000,
+      "salary_pool": 428700
+    }
+  }
+}
