@@ -31,17 +31,35 @@ def fetch_sheet():
     print(f"Fetched {len(df)} rows from '{TAB_NAME}'")
     return df
 
+def get_egyptian_week(dates):
+    """
+    Egyptian week: Sunday=start, Saturday=end.
+    Shift date back 1 day so Sunday acts as week start in ISO calculation.
+    """
+    shifted = dates - pd.Timedelta(days=1)
+    year = shifted.dt.isocalendar().year.astype(int)
+    week = shifted.dt.isocalendar().week.astype(int)
+    return year, week
+
 def process(df):
     df = df[df.get("is_test", "") != "Yes"] if "is_test" in df.columns else df
     df["Timestamp"] = pd.to_datetime(df["Timestamp"], errors="coerce")
     df = df.dropna(subset=["Timestamp"])
-    df["week"] = df["Timestamp"].dt.isocalendar().week.astype(int)
-    df["year"] = df["Timestamp"].dt.isocalendar().year.astype(int)
-    df = df[df["year"] == datetime.now().year]
+
+    # Apply Egyptian week (Sunday-Saturday)
+    df["eg_year"], df["eg_week"] = get_egyptian_week(df["Timestamp"])
+
+    # Filter current year
+    current_year = datetime.now().year
+    df = df[df["eg_year"] == current_year]
 
     result = {}
-    for wk in sorted(df["week"].unique()):
-        wdf = df[df["week"] == wk]
+    for wk in sorted(df["eg_week"].unique()):
+        wdf = df[df["eg_week"] == wk]
+
+        # Week date range label (actual min/max dates in data)
+        week_start = wdf["Timestamp"].min().strftime("%b %d")
+        week_end = wdf["Timestamp"].max().strftime("%b %d")
 
         roles = Counter()
         for r in wdf.get("Roles", pd.Series(dtype=str)).dropna():
@@ -60,6 +78,7 @@ def process(df):
 
         result[int(wk)] = {
             "count": len(wdf),
+            "week_range": f"{week_start} – {week_end}",
             "roles": dict(roles.most_common()),
             "top_locations": dict(locs.most_common(4)),
             "salary_avg": int(sal.mean()) if len(sal) else 0,
@@ -78,11 +97,14 @@ def main():
     with open(OUTPUT_JSON, "w") as f:
         json.dump({
             "updated_at": datetime.utcnow().isoformat() + "Z",
+            "week_standard": "Egyptian (Sunday-Saturday)",
             "weeks": summary
         }, f, indent=2)
 
     print(f"Saved summary to {OUTPUT_JSON}")
     print(f"Weeks processed: {list(summary.keys())}")
+    for wk, data in summary.items():
+        print(f"  Wk {wk} ({data['week_range']}): {data['count']} entries")
 
 if __name__ == "__main__":
     main()
