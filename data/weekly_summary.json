@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T15:58:07.424795Z",
+  "updated_at": "2026-04-05T17:44:02.292176Z",
   "weeks": {
     "5": {
       "count": 12,
@@ -184,25 +184,25 @@
       "salary_pool": 438500
     },
     "14": {
-      "count": 38,
+      "count": 39,
       "roles": {
         "Chef": 18,
-        "Barista": 15,
+        "Barista": 16,
         "Accounting Manager": 2,
         "Kitchen Manager": 2,
         "Head Barista": 2,
         "Branch Manager": 1
       },
       "top_locations": {
-        "New Cairo": 17,
-        "Heliopolis": 13,
+        "New Cairo": 18,
+        "Heliopolis": 14,
         "Nasr City": 12,
         "October & Zayed": 10
       },
-      "salary_avg": 11281,
+      "salary_avg": 11248,
       "salary_min": 6500,
       "salary_max": 35000,
-      "salary_pool": 428700
+      "salary_pool": 438700
     }
   }
 }
