@@ -1,8 +1,10 @@
 {
-  "updated_at": "2026-04-05T17:44:02.292176Z",
+  "updated_at": "2026-04-06T07:46:36.869730Z",
+  "week_standard": "Egyptian (Sunday-Saturday)",
   "weeks": {
     "5": {
       "count": 12,
+      "week_range": "Jan 29 \u2013 Jan 30",
       "roles": {
         "Barista": 11,
         "Waiter": 2,
@@ -21,6 +23,7 @@
     },
     "6": {
       "count": 12,
+      "week_range": "Feb 04 \u2013 Feb 08",
       "roles": {
         "Head Barista": 9,
         "Barista": 6,
@@ -40,6 +43,7 @@
     },
     "7": {
       "count": 29,
+      "week_range": "Feb 12 \u2013 Feb 15",
       "roles": {
         "Chef": 26,
         "Waiter": 1,
@@ -58,114 +62,119 @@
       "salary_pool": 391000
     },
     "8": {
-      "count": 13,
+      "count": 28,
+      "week_range": "Feb 17 \u2013 Feb 23",
       "roles": {
-        "Barista": 6,
-        "Chef": 5,
+        "Chef": 16,
+        "Barista": 7,
         "Head Barista": 4,
+        "Waiter": 3,
         "Branch Manager": 2,
-        "Waiter": 1,
-        "Hookah": 1,
-        "Accountant": 1
+        "Accountant": 2,
+        "Hookah": 1
       },
       "top_locations": {
-        "New Cairo": 4,
-        "October & Zayed": 4,
-        "Zamalek": 3,
-        "Dokki": 3
+        "New Cairo": 9,
+        "Anywhere in Cairo": 9,
+        "Nasr City": 8,
+        "Maadi": 7
       },
-      "salary_avg": 10615,
-      "salary_min": 6000,
-      "salary_max": 16000,
-      "salary_pool": 138000
+      "salary_avg": 12267,
+      "salary_min": 5000,
+      "salary_max": 30000,
+      "salary_pool": 343500
     },
     "9": {
-      "count": 51,
+      "count": 42,
+      "week_range": "Feb 24 \u2013 Mar 02",
       "roles": {
-        "Chef": 38,
-        "Waiter": 8,
+        "Chef": 33,
+        "Waiter": 6,
         "Branch Manager": 3,
-        "Barista": 1,
-        "Accountant": 1,
         "Captain Order": 1
       },
       "top_locations": {
-        "New Cairo": 22,
-        "Maadi": 17,
-        "Nasr City": 15,
-        "October & Zayed": 15
+        "New Cairo": 20,
+        "October & Zayed": 14,
+        "Maadi": 12,
+        "Downtown": 11
       },
-      "salary_avg": 12292,
+      "salary_avg": 11890,
       "salary_min": 4300,
-      "salary_max": 30000,
-      "salary_pool": 626900
+      "salary_max": 25000,
+      "salary_pool": 499400
     },
     "10": {
-      "count": 18,
+      "count": 17,
+      "week_range": "Mar 04 \u2013 Mar 09",
       "roles": {
-        "Chef": 14,
-        "Branch Manager": 4
+        "Chef": 11,
+        "Branch Manager": 5,
+        "Waiter": 1,
+        "Security": 1
       },
       "top_locations": {
         "Anywhere in Cairo": 9,
-        "New Cairo": 7,
-        "Downtown": 4,
-        "Maadi": 3
+        "New Cairo": 4,
+        "Maadi": 4,
+        "Downtown": 4
       },
-      "salary_avg": 13861,
+      "salary_avg": 14058,
       "salary_min": 1000,
-      "salary_max": 20000,
-      "salary_pool": 249500
+      "salary_max": 25000,
+      "salary_pool": 239000
     },
     "11": {
-      "count": 43,
+      "count": 38,
+      "week_range": "Mar 10 \u2013 Mar 15",
       "roles": {
-        "Chef": 27,
-        "Branch Manager": 6,
+        "Chef": 24,
+        "Branch Manager": 5,
         "Barista": 5,
-        "Waiter": 2,
         "Head Barista": 2,
-        "Security": 1,
         "Restaurant Manager": 1,
         "Operations Manager": 1,
-        "Captain Order": 1
+        "Captain Order": 1,
+        "Waiter": 1
       },
       "top_locations": {
         "October & Zayed": 15,
-        "Maadi": 13,
+        "Maadi": 12,
         "Nasr City": 10,
         "New Cairo": 10
       },
-      "salary_avg": 11093,
-      "salary_min": 6500,
+      "salary_avg": 10776,
+      "salary_min": 7000,
       "salary_max": 28000,
-      "salary_pool": 477000
+      "salary_pool": 409500
     },
     "12": {
-      "count": 42,
+      "count": 49,
+      "week_range": "Mar 17 \u2013 Mar 23",
       "roles": {
-        "Barista": 29,
+        "Barista": 36,
         "Head Barista": 14,
         "Chef": 5,
         "Hookah": 1,
         "Captain Order": 1
       },
       "top_locations": {
-        "New Cairo": 15,
-        "Anywhere in Cairo": 14,
-        "Heliopolis": 12,
-        "Nasr City": 11
+        "New Cairo": 19,
+        "Anywhere in Cairo": 16,
+        "Nasr City": 14,
+        "Maadi": 12
       },
-      "salary_avg": 9726,
+      "salary_avg": 9663,
       "salary_min": 4000,
       "salary_max": 15000,
-      "salary_pool": 408500
+      "salary_pool": 473500
     },
     "13": {
-      "count": 46,
+      "count": 50,
+      "week_range": "Mar 24 \u2013 Mar 30",
       "roles": {
-        "Barista": 33,
-        "Chef": 6,
+        "Barista": 26,
+        "Chef": 17,
         "Steward": 3,
         "Accounting Manager": 1,
         "Head Barista": 1,
@@ -173,36 +182,37 @@
         "Steward Supersiver": 1
       },
       "top_locations": {
-        "Anywhere in Cairo": 17,
-        "New Cairo": 13,
-        "Maadi": 12,
-        "October & Zayed": 12
+        "Anywhere in Cairo": 18,
+        "October & Zayed": 16,
+        "New Cairo": 11,
+        "Maadi": 10
       },
-      "salary_avg": 9532,
+      "salary_avg": 9670,
       "salary_min": 6000,
       "salary_max": 25000,
-      "salary_pool": 438500
+      "salary_pool": 483500
     },
     "14": {
-      "count": 39,
+      "count": 38,
+      "week_range": "Apr 01 \u2013 Apr 05",
       "roles": {
-        "Chef": 18,
-        "Barista": 16,
+        "Barista": 23,
+        "Chef": 9,
         "Accounting Manager": 2,
         "Kitchen Manager": 2,
         "Head Barista": 2,
-        "Branch Manager": 1
+        "Branch Manager": 2
       },
       "top_locations": {
-        "New Cairo": 18,
-        "Heliopolis": 14,
-        "Nasr City": 12,
-        "October & Zayed": 10
+        "New Cairo": 20,
+        "Heliopolis": 15,
+        "Nasr City": 14,
+        "Maadi": 13
       },
-      "salary_avg": 11248,
+      "salary_avg": 11413,
       "salary_min": 6500,
       "salary_max": 35000,
-      "salary_pool": 438700
+      "salary_pool": 433700
     }
   }
 }
